@@ -5,7 +5,7 @@ export const BIO_DATA = {
   role: "AI Automation Architect & Workflow Strategist",
   birthDate: "1996-09-17",
   location: "Monopoli (Bari), Italia",
-  photoUrl: "/profile/sabrina.jpg",
+  photoUrl: "https://i.imgur.com/oAdStUi.png", 
   email: "sabryf.27@gmail.com",
   phone: "3283476376",
   linkedInUrl: "https://www.linkedin.com/in/sabrina-detommaso-56582a384/",
@@ -20,8 +20,8 @@ export const BIO_DATA = {
 export const CREATIVE_SPOT = {
   title: "AI Commercial: Termoconvettore Future-Gen",
   description: "Ideazione e produzione integrale di uno spot pubblicitario per un prodotto concettuale futuristico. Il progetto dimostra come l'AI Generativa possa abbattere i costi di produzione video, gestendo l'intero ciclo creativo: dalla ricerca scientifica dei materiali alla generazione di asset visuali e sonori.",
-  videoUrl: "/spot.mp4", // Put your video file in public/spot.mp4
-  coverUrl: "/spot-cover.jpg", // Optional cover image
+  videoUrl: "https://res.cloudinary.com/ddqn6m8z7/video/upload/v1765880729/spot_wntjp7.mp4", 
+  coverUrl: "https://i.imgur.com/NhRNbS1.png",
   steps: [
     {
       label: "Ideazione & Ricerca",
@@ -107,7 +107,7 @@ export const PROJECTS: Project[] = [
     title: "RAG Chatbot Customer Service",
     shortDescription: "Un assistente virtuale intelligente che conosce a memoria i tuoi manuali tecnici. Risponde ai clienti 24/7 risolvendo dubbi complessi all'istante e, solo quando non è sicuro della risposta, apre automaticamente un ticket per il supporto umano. Riduce drasticamente i tempi di attesa e libera il tuo team dalle domande ripetitive.",
     stack: ["n8n", "Supabase (Vector)", "Gemini", "Zendesk", "PostgreSQL"],
-    image: "/workflows/p5-rag-chatbot.png", 
+    image: "https://i.imgur.com/qVviCHO.png",
     isFeatured: true,
     technicalSheet: {
       objective: "Creare un chatbot che risponde da PDF tecnici e scala all'umano se incerto.",
@@ -140,7 +140,7 @@ export const PROJECTS: Project[] = [
     title: "Orchestratore Marketing Multi-Agente",
     shortDescription: "Un intero team di marketing digitale automatizzato in una scatola. Dall'idea iniziale alla pubblicazione, questo sistema crea strategie, scrive i post e controlla la coerenza del brand (Tone of Voice), consegnandoti campagne pronte all'uso in pochi minuti invece che giorni. Elimina il blocco dello scrittore e accelera la produzione.",
     stack: ["n8n", "Gemini", "Google Docs", "Notion", "Google Calendar"],
-    image: "/workflows/p6-marketing-agent.png",
+    image: "https://i.imgur.com/DSfvLfD.png",
     isFeatured: true,
     technicalSheet: {
       objective: "Automatizzare strategia, copy e pubblicazione replicando un team umano.",
@@ -173,7 +173,7 @@ export const PROJECTS: Project[] = [
     title: "Lead Generation & Scoring Intelligente",
     shortDescription: "Smetti di sprecare tempo su contatti freddi. Questo sistema cerca potenziali clienti online, analizza i loro profili e ti segnala solo quelli 'caldi' e pronti all'acquisto (con un punteggio di qualità). Il tuo team vendite riceve una lista pulita su cui lavorare, aumentando le conversioni e riducendo lo stress.",
     stack: ["n8n", "Google Search/PhantomBuster", "Gemini", "AirTable"],
-    image: "/workflows/p3-lead-scoring.png",
+    image: "https://i.imgur.com/5JLqgXh.png",
     isFeatured: true,
     technicalSheet: {
       objective: "Consegnare ai venditori solo lead 'caldi' (Score > 4).",
@@ -203,7 +203,7 @@ export const PROJECTS: Project[] = [
     title: "Gestione Documentale Automatica",
     shortDescription: "Metti in ordine i file aziendali senza usare il mouse. Basta inviare un comando in chat (es. 'Archivia fattura') e il sistema salva il file nella cartella giusta su Google Drive, notificando i colleghi. Garantisce un archivio sempre perfetto e accessibile, eliminando l'errore umano e i documenti persi.",
     stack: ["n8n", "Gmail", "Google Drive", "Slack"],
-    image: "/workflows/p1-document-management.png",
+    image: "https://i.imgur.com/tA6WaRD.png",
     isFeatured: false,
     technicalSheet: {
       objective: "Automatizzare salvataggio e notifiche file con comandi via chat.",
@@ -225,7 +225,7 @@ export const PROJECTS: Project[] = [
     title: "Content Factory & SEO Score",
     shortDescription: "Trasforma una semplice lista di argomenti su un foglio di calcolo in articoli completi e ottimizzati per Google. Il sistema scrive, formatta e prepara i contenuti per il tuo blog mentre tu ti occupi d'altro. Garantisce una presenza online costante e professionale senza dover assumere copywriter esterni per le bozze.",
     stack: ["n8n", "Google Sheets", "Gemini", "Notion"],
-    image: "/workflows/p2-content-factory.png",
+    image: "https://i.imgur.com/Q2wfsoZ.png",
     isFeatured: false,
     technicalSheet: {
       objective: "Fabbrica di contenuti automatica che legge temi e pubblica post/blog.",
@@ -249,7 +249,7 @@ export const PROJECTS: Project[] = [
     title: "Lead Qualification & Funnel (FormBricks)",
     shortDescription: "Capire cosa vuole il cliente all'istante. Questo sistema legge le risposte aperte dei sondaggi e capisce il budget e l'urgenza del cliente. Invia automaticamente offerte premium ai clienti 'alto-spendenti' e email di cortesia agli altri, massimizzando i profitti e personalizzando l'esperienza utente in tempo reale.",
     stack: ["n8n", "FormBricks", "Gemini", "Zendesk", "Slack"],
-    image: "/workflows/p4-lead-qualification.png",
+    image: "https://i.imgur.com/MLVNDbM.png",
     isFeatured: false,
     technicalSheet: {
       objective: "Valutare automaticamente risposte aperte ai sondaggi.",
